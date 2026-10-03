@@ -28,3 +28,4 @@ html_static_path = ['_static']
 
 graphviz_output_format = 'svg'
 html_title = project
+html_css_files = ['graphviz-dark-mode.css']

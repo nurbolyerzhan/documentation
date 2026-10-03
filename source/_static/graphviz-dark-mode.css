@@ -1,0 +1,15 @@
+@media (prefers-color-scheme: dark) {
+  body:not([data-theme="light"]) {
+    svg.graphviz, object.graphviz {
+      filter: invert();
+      mix-blend-mode: screen;
+    }
+  }
+}
+
+body[data-theme="dark"] {
+  svg.graphviz, object.graphviz {
+    filter: invert();
+    mix-blend-mode: screen;
+  }
+}
