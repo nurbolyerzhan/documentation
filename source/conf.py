@@ -25,3 +25,5 @@ exclude_patterns = []
 
 html_theme = 'furo'
 html_static_path = ['_static']
+
+graphviz_output_format = 'svg'
